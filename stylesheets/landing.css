@@ -71,8 +71,9 @@ PAGE: _______
 /**********************************
 FONTS
 ***********************************/
-
-
+.portrait_name{
+    font-family: 'Audiowide', cursive;
+}
 
 /**********************************
 COLORS and BACKGROUNDS
