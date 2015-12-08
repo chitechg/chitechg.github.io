@@ -1,0 +1,94 @@
+/*
+  Built Mobile First: All Generic sizing and layouts are placed in main part of CSS. 
+  All sizing and layout changes specific to screen sizes is down in media-query area.
+  All color based things are seperate to allow for tweaking later out.
+*/
+
+/**********************************
+GENERAL
+***********************************/
+
+
+/**********************************
+NAVIGATION 
+***********************************/
+
+
+
+/**********************************
+HEADER
+***********************************/
+
+
+/**********************************
+MAIN CONTENT
+***********************************/
+.row {
+    margin: 15px;
+}
+article {
+    margin: 25px;
+    padding: 10px;
+    border-radius:10px;
+}
+
+
+/**********************************
+FOOTER - Layout and Sizing
+***********************************/
+footer {
+    height: 50px;
+    text-align: center;
+    padding-top:10px;
+}
+
+/**********************************
+PAGE: _______
+***********************************/
+
+
+
+/**********************************
+FONTS
+***********************************/
+
+
+
+/**********************************
+COLORS and BACKGROUNDS
+
+Blue: #A1E8D9
+Orange: #FF712C
+Dark Brown: #695D46
+Light Tan: #FFF6C5
+Middle Tan: #CFC291
+
+***********************************/
+
+body {
+    background: #A1E8D9;
+}
+
+.navbar {
+    background: #CFC291;
+}
+
+#bs-example-navbar-collapse-1 > ul:nth-child(1) > li.active > a , footer{
+    background: #FF712C;
+}
+
+.jumbotron{
+    background: #FFF6C5;
+}
+
+.jumbotron h1 {
+    color: #FF712C;
+}
+
+article{
+    background: #CFC291;
+}
+
+.thumbnail{
+    background: #FFF6C5;
+}
